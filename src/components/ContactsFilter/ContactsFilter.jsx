@@ -22,6 +22,7 @@ class ContactsFilter extends Component {
 
 ContactsFilter.propTypes = {
   handleChange: PropTypes.func.isRequired,
+  filter: PropTypes.string.isRequired,
 };
 
 export default ContactsFilter;

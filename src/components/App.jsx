@@ -63,7 +63,7 @@ export class App extends Component {
     const normalizedNumber = number.toLowerCase();
     const { contacts } = this.state;
 
-    const contactDubl = contacts.find(({ name, number }) => {
+    const contactDubl = contacts.find(({ name }) => {
       return (
         name.toLowerCase() === normalizedName &&
         number.toLowerCase() === normalizedNumber
